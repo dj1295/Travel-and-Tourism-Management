@@ -12,7 +12,7 @@ public class Conn {
 
     public Conn () {
         try {
-            c = DriverManager.getConnection("jdbc:sqlite:file:///C://Users//Raja%20Gupta//IdeaProjects//%22%20+%20%22Travel%20Management%20System//src//travel//management//system//tms.db");
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/tms","root","Srm@12345");
             s = c.createStatement();
 
         } catch (SQLException e) {
