@@ -1,11 +1,12 @@
 package travel.management.system;
 
-import javax.swing.*;
+import javax.swing.JComboBox;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import javax.swing.*;
 
 public class AddCustomer extends JFrame implements ActionListener {
 
@@ -43,7 +44,7 @@ public class AddCustomer extends JFrame implements ActionListener {
 
         JLabel l3 = new JLabel("ID Number : ");
         l3.setBounds(30, 130, 150, 25);
-        this.add(l3);
+        this.add(l3); 
 
         t2 = new JTextField();
         t2.setBounds(180, 130, 200, 25);
